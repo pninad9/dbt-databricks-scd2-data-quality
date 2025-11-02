@@ -1,0 +1,11 @@
+ninad_dbt_project:
+  outputs:
+    dev:
+      catalog: dbt_project
+      host: dbc-da510fdd-4c44.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/d0a2f4c6a6c13e52
+      schema: default
+      threads: 1
+      token: dapi90d6a5a3b4b12e6a660cdbb75ffaa9f8
+      type: databricks
+  target: dev
