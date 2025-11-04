@@ -6,6 +6,6 @@ ninad_dbt_project:
       http_path: /sql/1.0/warehouses/d0a2f4c6a6c13e52
       schema: default
       threads: 1
-      token: dapi90d6a5a3b4b12e6a660cdbb75ffaa9f8
+      token: 
       type: databricks
   target: dev
