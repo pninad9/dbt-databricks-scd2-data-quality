@@ -210,6 +210,8 @@ dbt snapshot
 ```
 
  <img src="https://github.com/pninad9/dbt-databricks-scd2-data-quality/blob/8b4d62a3ee66aef898b45f486a91fc527e19cf0b/screenshot/SCD%202.png" />  Query showing two versions of the same `id` with different `dbt_valid_from` / `dbt_valid_to`.  
+
+ 
 <img src="https://github.com/pninad9/dbt-databricks-scd2-data-quality/blob/8b4d62a3ee66aef898b45f486a91fc527e19cf0b/screenshot/DBT%20Bulid.png" /> Quccessful `dbt build` including snapshots.
 
 ---
@@ -217,6 +219,7 @@ dbt snapshot
 ## Final Word
 
 This repository is more than a set of SQL files—it is a compact **template for reliable, evolvable analytics**. By separating **Bronze** fidelity, **Silver** semantics, and **Gold** analytics and history, it scales across teams while keeping code modular and testable. Seeds and macros reduce duplication, generic and singular tests prevent regression, and snapshots answer time‑travel questions that businesses ask every week. To extend this further, add **source freshness checks**, publish **dbt docs** for discoverability, and wire a CI workflow (or dbt Cloud job) so every pull request builds and tests before merging. If you use Azure Data Factory or another orchestrator for extract/load, include pipeline JSONs under `adf/` and reference dbt runs in your jobs for end‑to‑end automation.
+
 
 
 
